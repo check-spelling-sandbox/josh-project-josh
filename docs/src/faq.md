@@ -2,7 +2,7 @@
 
 ## How is Josh different from git sparse-checkout?
 
-Josh operates on the git object graph and is unrelated to checking out files and the working tree on the filesystem, which is the only thing sparse-checkout is concerned with. A sparse checkout does not influence the contents of the object database and also not what gets downloaded over the network.
+Josh operates on the git object graph and is unrelated to checking out files and the working tree on the filesystem, which is the only thing sparse-checkout is concerned with. A sparse checkout does not influence the contents of the object database nor what gets downloaded over the network.
 Both can certainly be used together if needed.
 
 ## How is Josh different from partial clone?
