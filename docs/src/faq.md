@@ -7,7 +7,7 @@ Both can certainly be used together if needed.
 
 ## How is Josh different from partial clone?
 
-A partial clone will cause git to download only parts of an object database according to some predicate. It is still the same object database with the history having the same commits and sha1s. It still allows loading skipped parts of the object database at a later point.
+A partial clone will cause git to download only parts of an object database according to some predicate. It is still the same object database with the history having the same commits and `sha1`s. It still allows loading skipped parts of the object database at a later point.
 Josh creates an alternate history that has no reference to the skipped parts. It is as such very similar to git filter-branch just faster, with added features and a different user interface.
 
 ## How is it different from submodules?
