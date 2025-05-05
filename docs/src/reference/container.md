@@ -104,7 +104,7 @@
         <td>
             SSH server keys. If this volume is not
             mounted, a new key will be generated on
-            each container startup
+            each container startup.
         </td>
     </tr>
 </table>
