@@ -37,7 +37,7 @@ There is however no way to do this locally, because we don't have the data requi
 Also, the resulting tree should contain the contents of ``shared/a`` mapped to ``mod/a`` which
 means it needs to be produced on the server side because we don't have the files to put there.
 
-To accomplish that push with the create option:
+To accomplish that push with the `create` option:
 
     $ git push -o create origin master
 

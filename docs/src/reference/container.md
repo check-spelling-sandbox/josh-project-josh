@@ -35,7 +35,7 @@
         </td>
         <td>
             HTTP port to listen on.
-            Default: 8000
+            Default: <code>8000</code>
         </td>
     </tr>
     <tr>
@@ -44,7 +44,7 @@
         </td>
         <td>
             SSH port to listen on.
-            Default: 8022
+            Default: <code>8022</code>
         </td>
     </tr>
     <tr>
@@ -52,7 +52,7 @@
             <code>JOSH_SSH_MAX_STARTUPS</code>
         </td>
         <td>
-            Maximum number of concurrent SSH authentication attempts. Default: 16
+            Maximum number of concurrent SSH authentication attempts. Default: <code>16</code>
         </td>
     </tr>
     <tr>
@@ -62,7 +62,7 @@
         <td>
             Timeout, in seconds, for a single request when serving repos over SSH.
             This time should cover fetch from upstream repo, filtering, and serving
-            repo to client. Default: 300
+            repo to client. Default: <code>300</code>
         </td>
     </tr>
     <tr>
@@ -104,7 +104,7 @@
         <td>
             SSH server keys. If this volume is not
             mounted, a new key will be generated on
-            each container startup
+            each container startup.
         </td>
     </tr>
 </table>

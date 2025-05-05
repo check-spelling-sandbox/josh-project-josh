@@ -71,7 +71,7 @@ Now that we have a git repo populated with content, let's serve it through josh:
 > For the sake of this example, we run docker with --network="host" instead of publishing the port.
 > This is so that docker can access localhost, where our ad-hoc git repository is served.
 
-To facilitate developement on applications 1 and 2, we want to create workspaces for them.
+To facilitate development on applications 1 and 2, we want to create workspaces for them.
 Creating a new workspace looks very similar to checking out a subfolder through josh, as explained
 in "Getting Started".
 
